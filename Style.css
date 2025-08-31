@@ -1,0 +1,131 @@
+body{
+    background-image: url(./wp8968813-EA736.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+h1 {
+    font-family: url();
+}
+
+h2 {
+    font-size:xx-large;
+}
+
+h3 {
+    font-size:xx-large;
+    text-align: center;
+}
+
+h4 {
+    font-size:x-large;
+}
+
+ul {
+    list-style-type: initial;
+}
+
+a {
+    text-decoration: none;
+    color:cornflowerblue;
+}
+.tituloprincipal {
+    background-color:steelblue;
+    width: auto; /* Aqui usei o auto para ele se adaptar a página */
+    border: 2px solid rgba(226,232,240,0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center; 
+    color:antiquewhite;
+    font-style: italic;
+    font-size:larger;
+    background-color: rgba(0, 0, 0, 0.30);
+    margin: auto;
+} 
+ 
+.titulo {
+    color:antiquewhite;
+    text-align: center;
+    font-style: normal;
+    padding: 2rem;
+    
+}
+
+.secaodeapresentacao {
+    background-color: rgba(0, 0, 0, 0.30);
+    width: auto; /* Aqui usei o auto para ele se adaptar a página */
+    padding: 2rem;
+    border: 2px solid rgba(226,232,240,0.2);
+    border-radius: 1rem;
+    text-align: left; 
+    color:antiquewhite;
+    font-style: normal;
+    font-size:large;
+
+}
+
+.nome{
+    color:rgb(135, 172, 241);
+}
+
+.caixadeinformacoes {
+    width: auto; /* Aqui usei o auto para ele se adaptar a página */
+    margin-top: 24;
+    padding: 1rem;
+    border: 2px solid rgba(226,232,240,0.2);
+    border-radius: 12px;
+}
+
+.Hobbies {
+    background-color: rgba(0, 0, 0, 0.30);
+    border: 2px solid rgba(226,232,240,0.2);
+    width: auto; /* Aqui usei o auto para ele se adaptar a página */
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: left; 
+    color:antiquewhite;
+    font-style: normal;
+    font-size:large;
+}
+
+.divisaodehobby {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+     gap: 1rem;
+}
+
+.divisao1hobbys {
+    background-color: rgba(0, 0, 0, 0.30);
+    border: 2px solid rgba(226,232,240,0.2);
+    width: auto; /* Aqui usei o auto para ele se adaptar a página */
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: left; 
+    color:antiquewhite;
+    font-style: normal;
+    font-size:large;
+}
+
+.divisao2hobbys {
+    background-color: rgba(0, 0, 0, 0.30);
+    border: 2px solid rgba(226,232,240,0.2);
+    width: auto; /* Aqui usei o auto para ele se adaptar a página */
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: left; 
+    color:antiquewhite;
+    font-style: normal;
+    font-size:large;
+    line-height: 2;
+}
+
+footer {
+   text-align: center;
+   color:antiquewhite;
+   background-color: rgba(0, 0, 0, 0.30); 
+   border-radius: 1rem;
+   width: auto; /* Aqui usei o auto para ele se adaptar a página */
+   padding: 2px 8px 2px 8px;
+   border-width: 10000px;
+   margin: auto;
+}
